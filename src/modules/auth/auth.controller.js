@@ -1,7 +1,7 @@
 import UserModel from "../../../DB/model/user.model.js";
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { sendEmail } from "../../utils/SendEmail.js";
+import { sendEmail } from "../../utils/sendEmail.js";
 import { AppError } from "../../utils/AppError.js";
 
 export const register =async(req,res,next)=>{
